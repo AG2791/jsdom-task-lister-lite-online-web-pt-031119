@@ -2,7 +2,6 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
 // define variables 
-  let taskList = new taskList();
 
   let  taskForm = document.getElementById("create-task-form");  
                                             //html element 
@@ -19,13 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     renderApp();
   });
 
-  taskUl.addEventListener("click", (e) => {
-    if (e.target.nodeName === "BUTTON") {
-      taskList.deleteTask(e.target.dataset.description);
-      renderApp();
-    }
-
-  });
+ 
    
 });
 
