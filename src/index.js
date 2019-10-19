@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // your code here
 
 // define variables 
+taskList = []
 
   let  taskForm = document.getElementById("create-task-form");  
                                             //html element 
